@@ -1,0 +1,126 @@
+* {
+  font-weight: 700;
+}
+html {
+  font-size: 14px;
+  font-family: "Computer Modern Sans", sans-serif;
+  background: #262129;
+}
+
+nav {
+  display: inline-block;
+  width: 150px;
+  border-radius: 15px;
+  text-align: center;
+  background: #2E2E2E;
+  color: #ffffff;
+}
+
+nav h3 {
+  border: solid 2px #ccc;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  border: solid 1px #ccc;
+  border-radius: 15px;
+  text-align: left;
+}
+
+li a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: #969299
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px;
+}
+
+header {
+  color: #ffffff;
+  text-align: center;
+}
+
+p {
+  text-indent: 20px;
+}
+
+section {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 15px;
+  width: 900px;
+  color: #ffffff;
+  background: #6C5555;
+}
+aside {
+    display: inline-block;
+}
+
+#other {
+  display: inline-block;
+  width: 150px;
+  border-radius: 15px;
+  text-align: center;
+  background: #2E2E2E;
+  color: #ffffff;
+}
+
+#artfoot {
+  background: black;
+  border-radius: 15px;
+  width: 890px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#foot {
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#foot p {
+  font-style: italic;
+}
+
+#foot a {
+  color: #81BEF7;
+}
+
+.header {
+  font-size: 46px;
+}
+
+.footer {
+  font-size: 10px;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.navigation {
+  font-size: 12px;
+}
+
+.sidebar {
+  font-size: 10px;
+}
+
+[class$="r"] {
+  background: magenta;
+}
+
+[class*="a"]:not([class$="r"]) {
+  background: blue;
+}
