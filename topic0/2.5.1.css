@@ -1,0 +1,90 @@
+html {
+  font-family: "Computer Modern Sans", sans-serif;
+  background: #262129;
+}
+
+.header {
+  text-align: center;
+  background: #BB40EF;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 10px;
+  border-color: black;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: inline-block;
+  width: 150px;
+  border-radius: 15px;
+  color: #ffffff;
+  background: #2E2E2E;
+  margin: 5px;
+}
+
+section {
+  display: inline-block;
+  width: 930px;
+  border-radius: 15px;
+  color: #ffffff;
+  background: #6C5555;
+  text-indent: 40px;
+  margin: 5px;
+}
+
+aside {
+  display: inline-block;
+  width: 200px;
+  border-radius: 15px;
+  color: #ffffff;
+  background: #2E2E2E;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li a{
+  display: block;
+  color: #ffffff;
+  padding: 3px;
+}
+
+footer {
+  width: auto;
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+footer a{
+  color: #B4045F;
+}
+
+.container {
+  height: auto;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+#artfoot {
+  width: 920px;
+  background: black;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+img {
+  float: center;
+}
