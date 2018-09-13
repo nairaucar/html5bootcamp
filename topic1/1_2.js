@@ -4,23 +4,15 @@ function alerta() {
   alert('WARNING!')
 }
 
-function otroalerta(){
-  let data = getJSON('http://api.icndb.com/jokes/random');
-  document.getElementById('chuckJoke').innerHTML = data.value.joke;
-}
-
 function load() {
   document.getElementsByClassName('hidden')[0].classList.remove('hidden');
 }
 
 function getJSON(url) {
-  let rJSON ;
-  let req ;
+  let  rJSON  = '' ;
+  let  req = new XMLHttpRequest();
 
-  rJSON  = '' ;
-  req = new XMLHttpRequest();
-
-  if(req != null){
+  if(req){
       req.open('GET', url , false);
       req.send(null);
       rJSON = JSON.parse(req.responseText);
